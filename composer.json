@@ -1,0 +1,31 @@
+{
+    "name": "ttbooking/safe-money-parser",
+    "description": "Alternative (fallback) currency detection logic for MoneyPHP parser implementation",
+    "type": "library",
+    "keywords": ["money", "parser", "safe", "fallback"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/ttbooking/safe-money-parser/issues",
+        "source": "https://github.com/ttbooking/safe-money-parser"
+    },
+    "authors": [
+        {
+            "name": "Sergey Danilchenko",
+            "email": "s.danilchenko@ttbooking.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "moneyphp/money": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "TTBooking\\SafeMoneyParser\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
